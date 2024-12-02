@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navBar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <menu>
+        <ol>
+          <li><a id="fire" href="">Fire Type</a></li>
+          <li><a id="water" href="">Water Type</a></li>
+          <li><a id="grass" href="">Grass Type</a></li>
+          <li><a id="electric" href="">Electric Type</a></li>
+          <li><a id="ground" href="">Ground Type</a></li>
+          <li><a id="psychic" href="">Psychic Type</a></li>
+        </ol>
+      </menu>
+
+      <div id="buttonDiv">
+        <a style="color: white" href="#tableWithDetails"
+          ><button>Details about types</button>
+        </a>
+      </div>
+
+      <img class="mainImg" src="imgs/59768.jpg" alt="" />
+
+      <h1>Pokémon Type Comparison</h1>
+      <table id="tableWithDetails">
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Strengths</th>
+            <th>Weaknesses</th>
+            <th>Resistant To</th>
+            <th>Weak Against</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fire</td>
+            <td>Grass, Bug, Ice, Steel</td>
+            <td>Water, Rock, Ground</td>
+            <td>Fire, Grass, Bug, Ice, Steel</td>
+            <td>Water, Rock, Ground</td>
+          </tr>
+          <tr>
+            <td>Water</td>
+            <td>Fire, Ground, Rock</td>
+            <td>Electric, Grass</td>
+            <td>Fire, Water, Ice, Steel</td>
+            <td>Electric, Grass</td>
+          </tr>
+          <tr>
+            <td>Grass</td>
+            <td>Water, Ground, Rock</td>
+            <td>Fire, Ice, Poison, Flying, Bug</td>
+            <td>Water, Electric, Grass, Ground</td>
+            <td>Fire, Ice, Poison, Flying, Bug</td>
+          </tr>
+          <tr>
+            <td>Electric</td>
+            <td>Water, Flying</td>
+            <td>Ground</td>
+            <td>Electric, Flying, Steel</td>
+            <td>Ground</td>
+          </tr>
+          <tr>
+            <td>Ground</td>
+            <td>Fire, Electric, Poison, Rock, Steel</td>
+            <td>Water, Grass, Ice</td>
+            <td>Poison, Rock</td>
+            <td>Water, Grass, Ice</td>
+          </tr>
+          <tr>
+            <td>Psychic</td>
+            <td>Fighting, Poison</td>
+            <td>Bug, Ghost, Dark</td>
+            <td>Fighting, Psychic</td>
+            <td>Bug, Ghost, Dark</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <div id="buttonDiv">
+        <a style="color: white" href="#navBar"
+          ><button id="jumpTopButton">&uarr;</button>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

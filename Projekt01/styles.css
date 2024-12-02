@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #464646;
+}
+
+header {
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin-right: 2rem;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 400ms;
+}
+
+a:hover {
+  color: aqua;
+  transition: color 400ms;
+}
+
+menu {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+menu ol {
+  display: flex;
+  list-style-type: none;
+  font-size: xx-large;
+}
+
+menu ol li {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: darkgrey;
+  border-radius: 8px;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+#fire:hover {
+  color: red;
+}
+
+#water:hover {
+  color: blue;
+}
+
+#grass:hover {
+  color: green;
+}
+
+#electric:hover {
+  color: yellow;
+}
+
+#ground:hover {
+  color: brown;
+}
+
+#psychic:hover {
+  color: purple;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: darkgrey;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 400ms;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #333;
+  transition: background-color 400ms;
+}
+
+#buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.mainImg {
+  display: block;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #0078d4;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e6f7ff;
+}
+
+td {
+  color: #555;
+}
+
+footer div {
+  margin-bottom: 1.5rem;
+}
+
+footer button {
+  font-size: x-large;
+}
+
+#jumpTopButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 100%;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: background-color 400ms;
+}
+
+#jumpTopButton:hover {
+  background-color: #444;
+  transition: background-color 400ms;
+}
