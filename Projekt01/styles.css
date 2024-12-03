@@ -64,7 +64,7 @@ menu ol li {
 }
 
 #water:hover {
-  color: blue;
+  color: aqua;
 }
 
 #grass:hover {
@@ -178,4 +178,22 @@ footer button {
 #jumpTopButton:hover {
   background-color: #444;
   transition: background-color 400ms;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background: rgba(165, 165, 165, 0.5);
+  padding: 20px;
+  margin: 3rem auto;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section ul {
+  padding-left: 20px;
+  list-style-type: disc;
 }
